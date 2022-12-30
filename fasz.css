@@ -57,19 +57,20 @@ button {
   font-size: var(--fs-button);
   outline-style: none;
   border: 2px solid white;
+  border-left: none;
   padding: calc(0.5 * var(--fs-button)) 0em calc(0.5 * var(--fs-button)) calc(2 * var(--fs-button));
   border-radius: 0 calc(1.5 * var(--fs-button)) calc(1.5 * var(--fs-button)) 0;
   cursor: pointer;
   color: inherit;
   white-space: nowrap;
   user-select: none;
-  transform: translateX(-3px);
+  transform: translateX(0);
   transition: all 0.3s ease-out;
 }
 
 @keyframes appear {
   from {transform: translateX(calc(-2 * var(--fs-button)));}
-  to {transform: translateX(-3px);}
+  to {transform: translateX(0);}
 }
 
 button > * > * {
@@ -90,8 +91,14 @@ h1 {
   animation: 0.5s splash cubic-bezier(0.860, 0.000, 0.070, 1.000);
   font-family: 'Caveat', cursive;
   font-size: var(--fs-h1);
-  margin: var(--fs-h1);
-  text-align: end;
+  hyphens: auto;
+  line-break: loose;
+  line-height: 0.8;
+  margin: 0;
+  padding: 0;
+  padding-right: calc(1.5 * var(--fs-h1));
+  padding-left: calc(0.5 * var(--fs-h1));
+  text-align: start;
   transform-origin: center;
 }
 
@@ -120,10 +127,10 @@ h1 {
 }
 
 @media (max-aspect-ratio: 1/1) {
-  :root {
+  /*:root {
     --fs-button: clamp(1.25rem, 1vh + 1rem, 1.875rem);
     --fs-h1: clamp(3.5rem, 5vh + 2rem, 8rem);
-  }
+  }*/
   html {
     writing-mode: vertical-rl;
   }
@@ -132,14 +139,23 @@ h1 {
     transform: rotate(180deg);
   }
   button {
+    border: 2px solid white;
+    border-top: none;
     border-radius: 0 0 calc(1.5 * var(--fs-button)) calc(1.5 * var(--fs-button));
     padding: calc(2 * var(--fs-button)) calc(0.5 * var(--fs-button)) 0 calc(0.5 * var(--fs-button));
     text-align: right;
-    transform: translateY(-3px);
+    transform: translateY(0);
   }
   button:active {
     padding: calc(2.25 * var(--fs-button)) calc(0.5 * var(--fs-button)) 0 calc(0.5 * var(--fs-button)) ;
     transition: all 0s ease-out;
+  }
+
+  h1 {
+    hyphenate-character: ' ';
+    padding: 0;
+    padding-bottom: calc(2 * var(--fs-h1));
+    padding-top: calc(0.5 * var(--fs-h1));
   }
 
   .chrome {
@@ -148,7 +164,7 @@ h1 {
 
   @keyframes appear {
     from {transform: translateY(calc(-2 * var(--fs-button)));}
-    to {transform: translateY(-3px);}
+    to {transform: translateY(0);}
   }
 
   @keyframes splash {

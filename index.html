@@ -13,16 +13,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="fasz.css">
   </head>
   <body>
-    <div>
-      <button id="reload-button" onclick="setTimeout(window.location.reload.bind(window.location), 300)"><span class="chrome"><span>Még!</span> —</span></button>
-    </div>
-    <h1 id="word"></h1>
+    <button id="reload-button" onclick="setTimeout(window.location.reload.bind(window.location), 300)"><span class="chrome"><span>Még!</span> —</span></button>
+    <h1 id="word" contenteditable="true"></h1>
     <script type="text/javascript">
       const xhr = new XMLHttpRequest();
       xhr.open("GET", "https://fasszociacio.github.io/list.txt");
