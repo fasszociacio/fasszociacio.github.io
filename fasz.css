@@ -14,16 +14,15 @@ body {
   align-items: center;
   background-color: #FF69B4;
   color: white;
-  display: flex;
+  display: grid;
   font-family: sans-serif;
   font-size: 100%;
   grid-template-columns: 1fr 1fr;
-  height: 100vh;
-  width: 100vw;
-  justify-content: space-between;
+  grid-template-rows: 1fr;
+  min-height: 100vh;
+  justify-items: stretch;
   line-height: 1.5;
   margin: 0;
-  overflow: hidden;
   text-rendering: optimizeSpeed;
 }
 
@@ -49,6 +48,11 @@ p {
 
 /* etc. */
 
+article {
+  display: block;
+  width: 50vw;
+}
+
 button {
   animation: 0.3s appear ease-out;
   font-family: 'Hanken Grotesk', sans-serif;
@@ -73,7 +77,7 @@ button {
   to {transform: translateX(0);}
 }
 
-button > * > * {
+button > * {
   transition: all 0.3s ease-out;
 }
 
@@ -96,10 +100,8 @@ h1 {
   line-height: 0.8;
   margin: 0;
   padding: 0;
-  padding-right: calc(1.5 * var(--fs-h1));
-  padding-left: calc(0.5 * var(--fs-h1));
+  margin-right: calc(0.5 * var(--fs-h1));
   text-align: start;
-  transform-origin: center;
 }
 
 @keyframes splash {
@@ -120,70 +122,27 @@ h1 {
     padding: calc(0.5 * var(--fs-button)) 0em calc(0.5 * var(--fs-button)) calc(2.25 * var(--fs-button));
     transition: all 0.5s ease-out;
   }
-  button:hover > .chrome > span {
+  button:hover > span {
     letter-spacing: calc(0.55 * var(--fs-button));
     transition: all 0.5s ease-out;
   }
 }
 
-@media (max-aspect-ratio: 1/1) {
-  /*:root {
-    --fs-button: clamp(1.25rem, 1vh + 1rem, 1.875rem);
-    --fs-h1: clamp(3.5rem, 5vh + 2rem, 8rem);
-  }*/
-  html {
-    writing-mode: vertical-rl;
-  }
+@media (orientation: portrait) {
   body {
-    flex-direction: row;
-    transform: rotate(180deg);
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
   }
-  button {
-    border: 2px solid white;
-    border-top: none;
-    border-radius: 0 0 calc(1.5 * var(--fs-button)) calc(1.5 * var(--fs-button));
-    padding: calc(2 * var(--fs-button)) calc(0.5 * var(--fs-button)) 0 calc(0.5 * var(--fs-button));
-    text-align: right;
-    transform: translateY(0);
+  article {
+    transform: rotate(-90deg);
+    transform-origin: center;
+    width: 50vh;
   }
-  button:active {
-    padding: calc(2.25 * var(--fs-button)) calc(0.5 * var(--fs-button)) 0 calc(0.5 * var(--fs-button)) ;
-    transition: all 0s ease-out;
+  article:nth-child(1) {
+    order: 2;
   }
-
-  h1 {
-    hyphenate-character: ' ';
-    padding: 0;
-    padding-bottom: calc(2 * var(--fs-h1));
-    padding-top: calc(0.5 * var(--fs-h1));
-  }
-
-  .chrome {
-    writing-mode: vertical-rl;
-  }
-
-  @keyframes appear {
-    from {transform: translateY(calc(-2 * var(--fs-button)));}
-    to {transform: translateY(0);}
-  }
-
-  @keyframes splash {
-    from{
-      clip-path: inset(0% 0% 100% 0%);
-      opacity: 0;
-      transform: translateY(calc(-4 * var(--fs-h1))) scale(0.25);
-    }
-    to{
-      clip-path: inset(0% 0% 0% 0%);
-      opacity: 1;
-      transform: translateY(0) scale(1);
-    }
-  }
-
-  @media (hover: hover) {
-    button:hover {
-      padding: calc(2.25 * var(--fs-button)) calc(0.5 * var(--fs-button)) 0em calc(0.5 * var(--fs-button));
-      transition: all 0.5s ease-out;
-    }
+  article:nth-child(2) {
+    order: 1;
   }
 }

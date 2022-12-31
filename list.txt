@@ -4,12 +4,14 @@ Abúzusánka
 Aidsjárás
 Anállítás
 Análmennyezet
+Antigané
 Anyabaszóda
 Asszony vervetélés
 Baszásdűlő, kéjállomás
 Baszáspók
 Baszásványvíz
 Baszázados
+Baszódásszifon
 Baszókereső
 Beadjunktus
 Beakasztófa
@@ -28,6 +30,7 @@ Betesz-vesz város
 Beteszemélygépjármű
 Bikinintendo
 Bmwérfasz
+Borfostoló
 Bré-vitamin
 Brébiszitter
 Brédikátor
@@ -55,10 +58,13 @@ Chlamydiabétesz
 Chlamydiavetitő
 Chlamydionünszosz
 Chopénisz
+Corgia
 Cumikum
 Csehszlopákia
 Csicskamion
+Csiklókötő
 Csiklóslegény
+Csiklószőr
 Csiklottózó
 Csiklóverseny
 Csöcsörévész
@@ -131,6 +137,7 @@ Fitymajonézes szopástétom
 Fitymakákó
 Fitymalom Fasztivál
 Fitymandarin
+Fitymarimba
 Fitymarokkó
 Fogamzárójel
 Ganéni
@@ -140,7 +147,7 @@ Gecickány
 Gecigaretta
 Geciklus
 Gecilinder
-Gecincogás
+Gecincog
 Gecinege
 Gecintányér
 Geciszjordánia
@@ -153,6 +160,7 @@ Genyelgő párocskák
 Gerincre vágány
 Gerincrevágány
 Gerincrevágó István
+Gerontoffifee
 Gruppenny Market
 Hancúrozi
 Harisnyalás
@@ -213,7 +221,10 @@ Lágerincre váglak
 Lenyelvizsga
 Lenyelvrendszer
 Leszopatrícia
+Leszoperáció
 Leszophatszög
+Leszoporond
+Leszopponens
 Levarga Judit
 Lyukulele
 Magömlengés
@@ -230,6 +241,7 @@ Markolega
 Markolónia
 Maszturbácsi
 Maszturbán
+Megbaszalámi
 Megerőszakkollégium
 Megfogda
 Megfoghagyma
@@ -240,9 +252,12 @@ Mélytorockai László
 Mélytorokán Antal
 Mélytorokonság
 Menzesztésztika
+Milfazék
 Molesztálmennyezet
+Muffasztott rizs
 Nedveskedés
 Nedveteményes
+Nekromantika
 Nimfóka
 Nőstényező
 Nőstényfeltárás
@@ -260,6 +275,7 @@ Orgazmuskétás
 Orgazmustár
 Orgazmustra
 Óvszervezet
+Ovulátomás
 Pedobrev Klára
 Pedofilatorigát
 Pedofilharmónikusok
@@ -269,6 +285,7 @@ Pedoktor
 Pedóktorúr
 Pedon Juan
 Pedonáció
+Pénils Holgersson
 Péniszony
 Pénisztráng
 Petesejtés
@@ -284,6 +301,7 @@ Prosztatarozás
 Pumpál apostol
 Pumpálinka
 Pumped Gabortusz
+Punciszőrmebunda
 Puszindróma
 Ráfekszikla
 Rámarkolléga
@@ -301,6 +319,7 @@ Seggszőrmester
 Seggszpír
 Síkosintoizmus
 Spermadár
+Spermarimba
 Spuringyó
 Stricikli
 Sunamy Massif
@@ -325,10 +344,16 @@ Szopjadidas
 Szopjlemez
 Szopljemez
 Szopóálarcosbál
+Szopókember
+Szopóker
+Szopókháló
+Szopókjárás
 Szopoklész
 Szopóló
 Szopóni
 Szoposszúm
+Szopótlék
+Szopótök
 Szopponens
 Szopszidián
 Szűzbegisztán
