@@ -86,7 +86,7 @@ button:active {
   transition: all 0s ease-out;
 }
 
-button:active > .chrome > span {
+button:active > span {
   letter-spacing: calc(0.55 * var(--fs-button));
   transition: all 0s ease-out;
 }
