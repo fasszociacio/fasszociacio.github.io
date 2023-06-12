@@ -1,5 +1,5 @@
 const xhr = new XMLHttpRequest();
-xhr.open("GET", "https://fasszociacio.github.io/list.txt");
+xhr.open("GET", "https://fasszociacio.github.io/fasz-data.txt");
 xhr.onload = function() {
   if (xhr.status === 200) {
     const text = xhr.responseText;
