@@ -5,17 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Fasszociáció</title>
         <meta name="description" content="Virtuóz módon alpári szóviccek nagyobbacskáknak.">
+        <meta name="theme-color" content="#121212">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800&family=Barlow:wght@400&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&family=JetBrains+Mono:wght@800&display=swap" rel="stylesheet"> 
 
-        <link rel="stylesheet" href="fasz-flex.css">
+        <link rel="stylesheet" href="fasz.css">
         
     </head>
     <body>
-        <p id="word"></p>
+        <div class="word-container">
+            <p id="word"></p>
+        </div> 
         <button id="reload-button" onclick="setTimeout(window.location.reload.bind(window.location), 300)"><span>MÉG!</span> —</button>
         <script type="text/javascript" src="fasz-read-data.js"></script>
+        <script type="text/javascript" src="fasz-color.js"></script>
     </body>
 </html>
