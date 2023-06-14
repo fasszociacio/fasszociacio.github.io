@@ -47,7 +47,7 @@ p {
     font-kerning: normal;
     line-height: 1.026;
     padding: calc(0.5 * var(--fs-p));
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     word-break: break-all;
 
