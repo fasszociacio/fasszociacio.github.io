@@ -69,7 +69,7 @@ button {
     border-radius: 0 calc(1.5 * var(--fs-button)) calc(1.5 * var(--fs-button)) 0;
     cursor: pointer;
     color: inherit;
-    font-family: Barlow, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
     font-size: calc(0.75 * var(--fs-button));
     font-weight: 500;
     letter-spacing: 0.15em;
