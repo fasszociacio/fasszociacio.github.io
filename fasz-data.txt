@@ -1,3 +1,4 @@
+Abádfaszalók
 Abúzusánka
 Ágyékény
 Ágyékszék
@@ -13,6 +14,7 @@ Baszáspók
 Baszásványvíz
 Baszázados
 Baszódásszifon
+Baszoka Tano
 Baszókereső
 Basztőrözött tej
 BDSMény utáni tabletta
@@ -135,6 +137,7 @@ Faszcendens
 Faszcibállvány
 Faszfalt
 Faszimmetrikus
+Faszinó
 Faszkéta
 Faszkivanda
 Faszkorbinsav
@@ -192,8 +195,10 @@ Fogamzárójel
 Foslék
 Fosogatógép
 Fosogatószer
+Fosonmagyaróvár
 Fosószappan
 Fospa
+Fossuth Lajos
 Franciahártya
 Ganéni
 Gangbangedély
@@ -296,6 +301,7 @@ Kúróscsusza
 Kúrótorta
 Kurvacsora
 Kurvakond
+Kúrvasárnap
 Kutyapóz a nagy varázsló
 Kutyapózerkedés
 Kutyapózna
@@ -394,6 +400,7 @@ Pedoktor
 Pedóktorúr
 Pedon Juan
 Pedonáció
+Pedóvóbácsi
 Pedukáció
 Pélón musk
 Pénils Holgersson
@@ -507,6 +514,7 @@ Teddbereményi Géza
 Teherbe Baszkföld
 Teherbebaszkföld
 Térdelírium
+Tirannoszaurusz rejsz
 Tokaji faszú
 Tolószéklet
 Toszorúslány
